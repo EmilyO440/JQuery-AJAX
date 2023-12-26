@@ -57,7 +57,7 @@ function restartGame() {
         ['', '', ''],
         ['', '', '']
     ];
-
+  }
     document.getElementById('turn').innerText = `${currentPlayer}'s Turn`;
 
     for (let i = 0; i < 3; i++) {
